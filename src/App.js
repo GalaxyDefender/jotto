@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className="container">
         <h1>Jotto!</h1>
-        <Congrats success={true} />
+        <Congrats success={false} />
         <GuessedWords
           guessedWords={[{ guessedWord: "trains", letterMatchCount: 3 }]}
         />
